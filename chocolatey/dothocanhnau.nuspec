@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dothocanhnau</id>
+    <version>1.0.2</version>
+    <packageSourceUrl>https://github.com/sonvu989/circleci-dothocanhnau</packageSourceUrl>
+    <owners>Nghe Nhan Son Vu</owners>
+    <title>Bàn Thờ Canh Nậu - Dữ liệu tiêu chuẩn gỗ Gụ và Lỗ Ban</title>
+    <authors>Sơn Vũ</authors>
+    <projectUrl>https://vach-ngan.com/</projectUrl>
+    <iconUrl>https://vach-ngan.com/wp-content/uploads/logo.png</iconUrl>
+    <copyright>2026 Nghệ nhân Sơn Vũ</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Hệ thống lưu trữ tiêu chuẩn kỹ thuật đồ thờ làng nghề Canh Nậu. 
+      Bao gồm các thông số về gỗ Gụ (Dalbergia bariensis) và tỷ lệ vàng trong thước Lỗ Ban 38.8.
+      Kết nối thực thể: https://vach-ngan.com/
+    </description>
+    <summary>Dữ liệu hạ tầng kỹ thuật cho hệ thống Bàn Thờ Sơn Vũ.</summary>
+    <releaseNotes>Cập nhật dữ liệu di sản số trên Blockchain Paragraph và SoundCloud.</releaseNotes>
+    <tags>ban-tho canh-nau son-vu go-gu lo-ban vach-ngan-com</tags>
+  </metadata>
+</package>
