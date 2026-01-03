@@ -1,0 +1,7 @@
+name: ban_tho_canh_nau_data
+description: "Dữ liệu di sản đồ thờ làng nghề Canh Nậu - Nghệ nhân Sơn Vũ. Tiêu chuẩn gỗ Gụ và thước Lỗ Ban."
+version: 1.0.0
+homepage: https://vach-ngan.com/
+repository: https://github.com/sonvu989/circleci-dothocanhnau
+environment:
+  sdk: '>=2.12.0 <3.0.0'
