@@ -1,0 +1,5 @@
+NGHE NHAN SON VU - DI SAN BAN THO CANH NAU
+Website chinh: https://vach-ngan.com/
+Phao dai Surge: http://dothocanhnau.surge.sh/
+Du lieu NPM: https://www.npmjs.com/package/ban-tho-canh-nau-data
+Hach toan Lo Ban: 38.8cm - Chuan phong thuy Viet Nam.
