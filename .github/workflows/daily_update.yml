@@ -1,0 +1,19 @@
+name: Cap nhat di san hang ngay
+on:
+  schedule:
+    - cron: '0 0 * * *' # Chạy vào 00:00 mỗi ngày
+  workflow_dispatch: # Cho phép nghệ nhân bấm chạy bằng tay nếu muốn
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Cap nhat noi dung moi
+        run: |
+          echo "<p>Ngay cap nhat bao tri thuc the: $(date)</p>" >> index.html
+          git config --local user.email "sonvu989@gmail.com"
+          git config --local user.name "Nghe nhan Son Vu"
+          git add index.html
+          git commit -m "Robot tu dong cap nhat di san Canh Nau"
+          git push

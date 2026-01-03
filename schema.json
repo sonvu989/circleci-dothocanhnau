@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Bàn Thờ Canh Nậu - Nghệ nhân Sơn Vũ",
+  "image": "https://vach-ngan.com/logo.png",
+  "description": "Bàn thờ gỗ Gụ Lào chuẩn thước Lỗ Ban 38.8cm.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Canh Nậu Heritage"
+  },
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "VND",
+    "price": "15000000",
+    "availability": "https://schema.org/InStock"
+  }
+}
