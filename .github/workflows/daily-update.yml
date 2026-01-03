@@ -1,0 +1,29 @@
+name: Robot Nghe Nhan Son Vu
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Chạy vào 7h sáng mỗi ngày (giờ VN)
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Robot Sáng Tác Bài Viết
+        run: |
+          TOPIC=$(shuf -n 1 danh-sach-chu-de.txt)
+          python3 ai_writer.py "$TOPIC" "Bài viết tự động từ hệ thống di sản số nghệ nhân Sơn Vũ về chủ đề $TOPIC. Nội dung đang được cập nhật tinh hoa từ làng nghề Canh Nậu."
+          
+          # Thêm vào trang chủ tự động
+          FILENAME=$(echo $TOPIC | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g').html
+          sed -i "/<\/ul>/i \            <li><a href='cam-nang/$FILENAME'>🆕 $TOPIC</a></li>" index.html
+          
+      - name: Đẩy bài viết lên 3 pháo đài
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Robot Son Vu"
+          git add .
+          git commit -m "Robot tu dong dang bai moi"
+          git push
