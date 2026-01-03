@@ -42,6 +42,15 @@
 </head>
 
 <body>
+    <div id="seasonal-welcome" style="position:fixed; top:50px; right:10px; z-index:1000; background:rgba(255,215,0,0.9); padding:10px; border-radius:10px; display:none; border:2px solid #8B0000; color:#8B0000; font-weight:bold;">🌸 Chúc mừng năm mới 2026! 🌸</div>
+    <script>
+        const month = new Date().getMonth() + 1;
+        if(month === 1 || month === 2) {
+            document.getElementById("seasonal-welcome").style.display = "block";
+            // Hiệu ứng rơi hoa (giả lập)
+            console.log("Kích hoạt hiệu ứng hoa đào rơi cho mùa Xuân...");
+        }
+    </script>
         <p style="text-align:center;"><a href="cam-nang/nhan-uu-dai.html" style="background:#FFD700; color:#8B0000; padding:12px 25px; text-decoration:none; border-radius:30px; font-weight:bold; display:inline-block; border:2px solid #8B0000;">🎁 NHẬN BỘ VĂN KHẤN & VOUCHER 1TR</a></p>
     <div id="tam-linh-alert" style="background:#FFD700; color:#8B0000; text-align:center; padding:10px; font-weight:bold; display:none;">🏮 Hôm nay là ngày lành, gia chủ đừng quên thành tâm dâng hương! 🏮</div>
     <script>
@@ -108,6 +117,7 @@
             <li><a href="cam-nang/bach-khoa-do-tho.html">📚 Bách khoa toàn thư đồ thờ</a></li>
             <li><a href="cam-nang/trien-lam-anh.html">🖼️ Triển lãm ảnh thực tế tại xưởng</a></li>
             <li><a href="cam-nang/khach-hang-noi-ve-chung-toi.html">⭐ Cảm nhận của hơn 1000+ Gia chủ</a></li>
+            <li><a href="cam-nang/so-tay-giu-le.html">📅 Sổ tay ngày lễ trong năm</a></li>
         </ul>
 
         <p style="text-align:center;"><a href="cam-nang/nhan-uu-dai.html" style="background:#FFD700; color:#8B0000; padding:12px 25px; text-decoration:none; border-radius:30px; font-weight:bold; display:inline-block; border:2px solid #8B0000;">🎁 NHẬN BỘ VĂN KHẤN & VOUCHER 1TR</a></p>
