@@ -4,6 +4,14 @@
 <html lang="vi">
 
 <head>
+    <link rel="manifest" href="manifest.json">
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js");
+        });
+      }
+    </script>
     
     <script>
       console.log("Mắt thần đã kích hoạt: Đang theo dõi hành vi khách hàng...");
