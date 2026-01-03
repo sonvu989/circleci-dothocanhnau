@@ -1,15 +1,13 @@
-# 🏮 Nghệ Nhân Sơn Vũ - Bàn Thờ Gỗ Gụ Lào Canh Nậu
+# 🏮 Nghệ Nhân Sơn Vũ - Chuyên Gia Bàn Thờ Gỗ Gụ Lào
 
-Chào mừng bạn đến với không gian di sản của Nghệ nhân Sơn Vũ. 
-Chúng tôi kết hợp nghệ thuật đục chạm thủ công truyền thống với công nghệ hiện đại.
+Nơi hội tụ tinh hoa làng nghề Canh Nậu. Chúng tôi chuyên chế tác các dòng bàn thờ cao cấp, sập thờ và đồ thờ tâm linh.
 
-### 🏛️ Hệ sinh thái Đồ Thờ Sơn Vũ:
-* **Website Chính thức:** [https://y-sandy-seven.vercel.app](https://y-sandy-seven.vercel.app)
-* **Xưởng Sản Xuất:** Làng nghề Canh Nậu, Thạch Thất, Hà Nội.
-* **Chuyên:** Bàn thờ gỗ Gụ Lào, Sập thờ, Đồ thờ phong thủy cao cấp.
+### 🏛️ Ghé thăm xưởng tại:
+* **Website Chính Thức:** [https://vach-ngan.com](https://vach-ngan.com)
+* **Showroom Trực Tuyến:** [https://y-sandy-seven.vercel.app](https://y-sandy-seven.vercel.app)
 
-### 🛠️ Dự án đang triển khai:
-- Hệ thống tra cứu [Thước Lỗ Ban Phong Thủy](https://y-sandy-seven.vercel.app/cam-nang/thuoc-lo-ban.html)
-- Kho lưu trữ [Văn Khấn Gia Tiên](https://y-sandy-seven.vercel.app/cam-nang/tai-van-khan-tron-bo.html)
+### 🛠️ Dòng sản phẩm chủ lực:
+- **Bàn thờ gỗ Gụ Lào:** [Xem mẫu tại vach-ngan.com](https://vach-ngan.com)
+- **Tư vấn phong thủy:** 0936 320 832 (Zalo)
 
-**Liên hệ trực tiếp:** 0936 320 832 (Zalo)
+*Kết nối với chúng tôi để bảo tồn nét đẹp văn hóa thờ cúng Việt.*
