@@ -1,0 +1,20 @@
+==================================================
+CẨM NANG SOI BACKLINK ĐỐI THỦ - NGHỆ NHÂN SƠN VŨ
+==================================================
+
+CÁCH 1: TÌM NƠI ĐỐI THỦ ĐẶT BÀI
+Gõ lên Google: "tên-đối-thủ" -site:website-của-đối-thủ.com
+(Ví dụ: "Bàn thờ Toàn Thắng" -site:banthotoanthang.com)
+=> Google sẽ hiện ra tất cả những trang web KHÁC đang nhắc tên đối thủ. 
+Nghệ nhân chỉ cần vào đó và đăng bài của mình.
+
+CÁCH 2: TÌM DIỄN ĐÀN ĐỐI THỦ ĐANG CHƠI
+Gõ lên Google: site:tinhte.vn "bàn thờ"
+Gõ lên Google: site:webtretho.com "gỗ gụ"
+=> Xem ai đang hỏi, nghệ nhân vào tư vấn và để lại link https://y-sandy-seven.vercel.app.
+
+CÁCH 3: CHIẾM LĨNH TỪ KHÓA ĐỊA PHƯƠNG
+Gõ lên Google: "bàn thờ gỗ gụ tại + [tên tỉnh thành]"
+=> Nếu trang của đối thủ hiện lên, nghệ nhân hãy xem nội dung họ viết gì, Robot AI của chúng ta sẽ viết một bài hay gấp đôi để đè bẹp họ.
+
+==================================================
