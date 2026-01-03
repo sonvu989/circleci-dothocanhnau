@@ -2,19 +2,42 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Cẩm Nang Thước Lỗ Ban 38.8cm - Đồ Thờ Canh Nậu</title>
+    <title>Tra Cứu Thước Lỗ Ban Chuẩn Phong Thủy - Sơn Vũ</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: auto; padding: 20px; background: #f4f1ea; }
-        h1 { color: #8B0000; }
-        .box { background: white; padding: 15px; border-left: 5px solid #8B0000; }
+        body { font-family: sans-serif; text-align: center; padding: 20px; background: #fffcf5; }
+        .ruler-box { max-width: 500px; margin: auto; background: white; padding: 30px; border: 2px solid #8B0000; border-radius: 15px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        input { width: 80%; padding: 15px; font-size: 20px; border: 2px solid #ddd; border-radius: 10px; margin-bottom: 20px; }
+        .result { font-size: 24px; font-weight: bold; color: #8B0000; padding: 20px; border-radius: 10px; background: #fff0f0; }
+        h1 { color: #8B0000; font-size: 20px; }
+        .btn-call { display: block; background: #8B0000; color: white; padding: 15px; text-decoration: none; margin-top: 20px; border-radius: 10px; font-weight: bold; }
     </style>
 </head>
 <body>
-    <nav style="padding:10px; font-size:14px;"><a href="../index.html">Trang chủ</a> > <span style="color:#888;">Cẩm nang Đồ Thờ</span></nav>
-    <h1>Bí Kíp Thước Lỗ Ban 38.8cm</h1>
-    <div class="box">
-        <p>Trong nghề làm <strong>Bàn Thờ Canh Nậu</strong>, thước 38.8cm là tiêu chuẩn vàng.</p>
+    <div class="ruler-box">
+        <h1>TRA CỨU KÍCH THƯỚC BAN THỜ</h1>
+        <p>Nhập kích thước (cm) để xem cung tốt/xấu:</p>
+        <input type="number" id="sizeInput" placeholder="Ví dụ: 127" oninput="checkRuler()">
+        <div id="result" class="result">Chưa nhập số</div>
+        <p style="font-size: 12px; color: #666; margin-top: 10px;">* Thước 38.8cm dùng cho Đồ thờ, Biến cát thành hung.</p>
+        <a href="tel:0936320832" class="btn-call">📞 GỌI NGHỆ NHÂN TƯ VẤN THÊM</a>
     </div>
-    <p><a href="../index.html"> Quay lại trang chủ</a></p>
+    <script>
+        function checkRuler() {
+            let val = document.getElementById('sizeInput').value;
+            let result = document.getElementById('result');
+            if(!val) { result.innerText = "Chưa nhập số"; return; }
+            // Logic đơn giản giả lập tra cứu các cung tốt như Tiến Bảo, Đăng Khoa, Hỷ Sự
+            const luckySizes = [61, 67, 81, 89, 107, 127, 153, 175, 197];
+            let isLucky = luckySizes.some(s => Math.abs(s - val) <= 2);
+            if(isLucky) {
+                result.innerText = "CUNG TỐT: ĐẠI CÁT 🧧";
+                result.style.color = "green";
+            } else {
+                result.innerText = "CUNG XẤU: NÊN CHỈNH ⚠️";
+                result.style.color = "red";
+            }
+        }
+    </script>
+    <p><br><a href="../index.html">← Quay lại Trang chủ</a></p>
 </body>
 </html>
