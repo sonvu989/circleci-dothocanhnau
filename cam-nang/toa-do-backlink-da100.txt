@@ -1,0 +1,21 @@
+==================================================
+DANH SÁCH PHÁO ĐÀI CẦN CẮM CỜ (DA 90-100)
+==================================================
+
+1. REDDIT (DA 91): 
+   - Tạo cộng đồng r/banthocanhnau.
+   - Đăng ảnh bộ bàn thờ Gụ Lào đẹp nhất.
+
+2. QUORA (DA 93): 
+   - Trả lời câu hỏi: "Nên mua bàn thờ gỗ gì tốt nhất?" 
+   - Chèn link: https://y-sandy-seven.vercel.app
+
+3. SOUNDCLOUD (DA 94): 
+   - Đăng bản nhạc Thiền đang dùng trên web.
+   - Phần mô tả chèn link website xưởng Sơn Vũ.
+
+4. BEHANCE (DA 92):
+   - Đăng bộ sưu tập "Tuyệt tác bàn thờ Canh Nậu".
+   - Link về trang chủ Vercel.
+
+==================================================
