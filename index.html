@@ -66,6 +66,7 @@
             <li><a href="cam-nang/go-gu-lao.html">Cách phân biệt Gỗ Gụ Lào chuẩn</a></li>
 
             <li><a href="cam-nang/bo-suu-tap.html">Bộ sưu tập mẫu Bàn Thờ đẹp</a></li>
+            <li><a href="cam-nang/bao-gia.html">Bảng báo giá xưởng (Mới nhất)</a></li>
         </ul>
 
     </div>
@@ -78,6 +79,17 @@
 
     <p><small>Hệ thống xác thực thực thể từ Google Cloud Shell. Cập nhật: Sat Jan  3 01:57:16 AM UTC 2026</small></p>
 
+    <div id="notification" style="position: fixed; bottom: 20px; left: 20px; background: white; padding: 10px; border-radius: 5px; border-left: 5px solid #28a745; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: none; z-index: 1000;"></div>
+    <script>
+        const messages = ["Khách hàng tại Hà Nội vừa gọi tư vấn", "1 người đang xem mẫu Bàn thờ gỗ Gụ", "Khách tại Bắc Ninh vừa đặt làm bàn thờ"];
+        function showNotif() {
+            const div = document.getElementById("notification");
+            div.innerText = messages[Math.floor(Math.random() * messages.length)];
+            div.style.display = "block";
+            setTimeout(() => { div.style.display = "none"; }, 4000);
+        }
+        setInterval(showNotif, 10000);
+    </script>
 </body>
 
 </html>
