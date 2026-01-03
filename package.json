@@ -1,0 +1,11 @@
+{
+  "name": "ban-tho-son-vu-canh-nau",
+  "version": "1.0.0",
+  "description": "Chuyên bàn thờ gỗ Gụ Lào cao cấp từ nghệ nhân Sơn Vũ. Truy cập tại: https://y-sandy-seven.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonvu989/circleci-dothocanhnau"
+  },
+  "keywords": ["ban tho", "go gu lao", "canh nau", "son vu"],
+  "author": "Nghệ nhân Sơn Vũ <sonvu989@gmail.com> (https://y-sandy-seven.vercel.app)"
+}
