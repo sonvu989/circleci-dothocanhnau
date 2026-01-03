@@ -35,6 +35,14 @@
 </head>
 
 <body>
+    <div id="tam-linh-alert" style="background:#FFD700; color:#8B0000; text-align:center; padding:10px; font-weight:bold; display:none;">🏮 Hôm nay là ngày lành, gia chủ đừng quên thành tâm dâng hương! 🏮</div>
+    <script>
+        const now = new Date();
+        // Đoạn code này có thể mở rộng để tính ngày Âm lịch chính xác
+        if(now.getDate() === 1 || now.getDate() === 15) {
+            document.getElementById("tam-linh-alert").style.display = "block";
+        }
+    </script>
     <div id="google_translate_element" style="text-align:right; padding:10px;"></div>
     <script type="text/javascript">
     function googleTranslateElementInit() {
@@ -84,6 +92,7 @@
             <li><a href="cam-nang/tinh-hoa-lang-nghe-ban-tho-canh-nau.html">🌟 Tinh hoa làng nghề Canh Nậu</a></li>
             <li><a href="cam-nang/lien-he.html">📍 Địa chỉ xưởng và Bản đồ</a></li>
             <li><a href="cam-nang/qr-code.html">📱 Mã QR xác thực sản phẩm</a></li>
+            <li><a href="cam-nang/van-khan.html">📜 Thư viện Văn khấn cổ truyền</a></li>
         </ul>
 
     </div>
