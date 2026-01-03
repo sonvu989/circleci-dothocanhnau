@@ -1,0 +1,31 @@
+==================================================
+DI SẢN CÔNG NGHỆ - NGHỆ NHÂN SƠN VŨ (CANH NẬU)
+==================================================
+
+1. PHÁO ĐÀI GITHUB (Nơi giữ gốc mã nguồn):
+   - Tài khoản: sonvu989
+   - Link: https://github.com/sonvu989/circleci-dothocanhnau
+
+2. PHÁO ĐÀI VERCEL (Tốc độ cao - Bán hàng chính):
+   - Link quản trị: https://vercel.com/sonvus-projects-1562901f
+   - Domain hiện tại: https://y-sandy-seven.vercel.app
+
+3. PHÁO ĐÀI SURGE (Dự phòng vĩnh viễn):
+   - Link: https://dothocanhnau.surge.sh
+
+4. ROBOT AI TỰ ĐỘNG:
+   - Chạy vào: 00:00 UTC (7:00 AM giờ Việt Nam) mỗi ngày.
+   - Nhiệm vụ: Tự bốc từ khóa trong file 'danh-sach-chu-de.txt' để viết bài.
+
+5. HỆ THỐNG LIÊN LẠC:
+   - Telegram Bot: Canh gác và báo khách 24/7.
+   - Formspree: Nhận data khách hàng về Email sonvu989@gmail.com.
+
+6. QUY TRÌNH PHỤC HỒI (Nếu web sập):
+   - Bước 1: Vào Google Cloud Shell.
+   - Bước 2: Gõ 'git clone https://github.com/sonvu989/circleci-dothocanhnau'.
+   - Bước 3: Gõ 'vercel --prod' để hồi sinh hệ thống.
+
+--------------------------------------------------
+HÃY IN FILE NÀY VÀ CẤT GIỮ CẨN THẬN - ĐÂY LÀ GIA SẢN!
+==================================================

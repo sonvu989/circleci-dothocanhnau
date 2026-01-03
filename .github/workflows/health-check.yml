@@ -1,0 +1,17 @@
+name: Bao Tri He Thong Vinh Cuu
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Chạy vào mỗi Chủ Nhật hàng tuần
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Kiem tra su song cua 3 phao dai
+        run: |
+          curl -I https://y-sandy-seven.vercel.app | grep "HTTP/2 200"
+          curl -I https://dothocanhnau.surge.sh | grep "200 OK"
+          echo "He thong on dinh. Nghe nhan Son Vu hay yen tam san xuat!"
