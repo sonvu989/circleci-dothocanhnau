@@ -1,11 +1,14 @@
 import requests
-from google.auth import compute_engine
-from google.auth.transport.requests import Request
 
-def ping_url(url):
-    print(f"Dang gui yeu cau index cho: {url}")
-    # Day la lenh mo phong viec thong bao cho Google ve mot URL moi
-    print(f"Thanh cong! Google Bot da nhan tin hieu tu thuc the dothocanhnau.")
+def ping():
+    sitemap_url = "https://sonvu989.github.io/circleci-dothocanhnau/sitemap.xml"
+    google_ping = f"https://www.google.com/ping?sitemap={sitemap_url}"
+    try:
+        r = requests.get(google_ping)
+        if r.status_code == 200:
+            print("Chuc mung nghe nhan! Google da nhan tin hieu 'Tầm nhiệt'.")
+    except:
+        print("Loi ket noi, nghe nhan hay kiem tra lai mang.")
 
-ping_url("http://dothocanhnau.surge.sh/")
-ping_url("https://vach-ngan.com/")
+if __name__ == "__main__":
+    ping()
