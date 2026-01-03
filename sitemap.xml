@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://vach-ngan.com/</loc>
+    <loc>https://y-sandy-seven.vercel.app/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://sonvu989.github.io/circleci-dothocanhnau/</loc>
-    <priority>0.8</priority>
+    <loc>https://y-sandy-seven.vercel.app/cam-nang/ban-tho-go-gu-cao-cap.html</loc>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://dothocanhnau.surge.sh/</loc>
-    <priority>0.5</priority>
+    <loc>https://y-sandy-seven.vercel.app/cam-nang/van-khan.html</loc>
+    <priority>0.8</priority>
   </url>
 </urlset>

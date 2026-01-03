@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
-Sitemap: https://sonvu989.github.io/circleci-dothocanhnau/sitemap.xml
+Disallow: /cam-nang/bi-kip-chot-don.txt
+
+Sitemap: https://y-sandy-seven.vercel.app/sitemap.xml
