@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="https://vach-ngan.com/logo.png"/>
+      <TileColor>#8B0000</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
